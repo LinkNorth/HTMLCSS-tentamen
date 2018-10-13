@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="reset.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="do_not_touch.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Tentamen</h1>
+    <p>Nedan följer de uppgifter som behöver göras. Varje uppgift ska lösas inuti .problem-area diven. CSS:en ska skrivas i style.css och JavaScripten ska skrivas i script.js filen. Du får inte ändra någon CSS som är skriven i "do_not_touch.css" filen. Du får heller inte ändra någon HTML i denna filen som inte ligger under en .problem-area div.</p>
+    <h2>G-uppgifter</h2>
+
+    <div class="problem" id="problem1">
+      <p>1. Gör så att texten i rutan har röd färg och 24px i font storlek.</p>
+      <div class="problem-area">
+        <p>Denna texten ska vara röd och ha 24px i storlek</p>
+      </div>
+    </div>
+
+    <div class="problem" id="problem2">
+      <p>2. Gör så att de följande tre divarna ligger brevid varandra på samma rad. Du får inte ta bort klasserna som redan är satta inuti .problem-area. Men du får lov att lägga till hur många klasser du vill.</p>
+      <div class="problem-area">
+        <div class="bg-red"></div>
+        <div class="bg-blue"></div>
+        <div class="bg-green"></div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem3">
+      <p>3. Skapa en hyperlänk till sidan http://google.com inne i rutan</p>
+      <div class="problem-area">
+
+      </div>
+    </div>
+
+    <div class="problem" id="problem4">
+      <p>4. I rutan ligger det flera olika frukter. Skapa en lista av alla dessa värdena. </p>
+      <div class="problem-area">
+        Banan
+        Äpple
+        Päron
+        Melon
+        Ananas
+      </div>
+    </div>
+
+    <div class="problem" id="problem5">
+      <p>5. I rutan ligger det flera rader med olika frukter och grönsaker. Skapa en tabell med två kolumner. I den första kolumnen ska alla frukter ligger på varsin rad, i den andra kolumnen ska alla grönsaker ligga. Lägg även till en header rad som med värdena "frukter" och "grönsaker" i varsin kolumn. Du kan ta bort br taggarna</p>
+      <div class="problem-area">
+        Frukt Grönsak<br/>
+        Banana Potatis<br/>
+        Äpple Morot<br/>
+        Päron Paprika<br/>
+      </div>
+    </div>
+
+    <p>Du behöver klara minst en av 6a och 6b</p>
+    <div class="problem" id="problem6a">
+      <p>6a. I rutan ligger det en knapp. Lägg till en event lyssnare på knappen med JavaScript och skriv ut meddelandet "Hello world" till konsolen när en användare trycker på knappen.</p>
+      <div class="problem-area">
+        <button id="problem6button">Click me!</button>
+      </div>
+    </div>
+
+    <div class="problem" id="problem6b">
+      <p>6b. Rutan är tom. Lägg till ett p element med texten "Hello world" med hjälp av JavaScript. Du får inte skriva någon HTML-kod inne i rutan.</p>
+      <div class="problem-area">
+      </div>
+    </div>
+
+    <div class="problem" id="problem7">
+      <p>7. I rutan ligger det en text. Centrera texten i mitten av rutan, både horisontellt och vertikalt.</p>
+      <div class="problem-area">
+        <p>Centrera mig!</p>
+      </div>
+    </div>
+
+    <div class="problem" id="problem8">
+      <p>8. I rutan ligger det tre divar. Använd bootstrap grid system för att göra så att divarna ligger brevid varandra och tar upp lika mycket plats. Divarna ska också tillsammans fylla upp hela raden de ligger på (förutom den padding som finns). Du får inte ta bort de klasser som redan ligger inuti .problem-area. Däremot får du lägga till hur många klasser du vill.</p>
+      <div class="problem-area">
+        <div>
+          <div>
+            <div class="box bg-red"></div>
+            <div class="box bg-blue"></div>
+            <div class="box bg-green"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="problem" id="problem9">
+      <p>9. I rutan ligger det en knapp. Lägg på bootstrap klasser på knappen för att formatera den som en standard "primary" knapp.</p>
+      <div class="problem-area">
+        <button type="button">Primary</button>
+      </div>
+    </div>
+
+    <div class="problem" id="problem10">
+      <p>10. I rutan ligger det en text. Med hjälp av position attributet och left, top, right eller bottom. Positionera texten så att den alltid ligger längst ner i det högra hörnet. Notera att rutan har "position" satt till "relative" redan.</p>
+      <div class="problem-area">
+        <p>Lägg mig i nedersta högra hörnet!</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
