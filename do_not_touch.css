@@ -55,7 +55,7 @@ main {
   margin-bottom: 0px;
 }
 
-#problem14 .problem-area > div {
+#problem13 .problem-area > div {
   background-color: gray;
   color: white;
   padding: 10px;
@@ -64,7 +64,7 @@ main {
   text-align: center;
 }
 
-#problem14 .problem-area {
+#problem13 .problem-area {
   width: 100%;
   height: 200px;
   display: flex;
